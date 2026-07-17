@@ -7,9 +7,13 @@ description: Use when generating a square single-character desk-work illustratio
 
 Create a new character, not a new visual system. Treat any supplied 3×3 reference sheet as the authority for composition, linework, dot density, and palette logic; never copy a depicted face, outfit, pose, or object arrangement.
 
+## Required reference asset
+
+Before every generation, inspect `assets/screenprint-character-series-reference.png` and include it as the image-generation tool's style-and-composition reference. Treat it as the mandatory visual anchor, never as an edit target. Do not generate until the asset has been reviewed.
+
 ## Workflow
 
-1. Inspect the reference image and pass it to the image-generation tool as a style-and-composition reference.
+1. Inspect `assets/screenprint-character-series-reference.png` and pass it to the image-generation tool as a style-and-composition reference.
 2. Define the new character before writing the prompt: face shape, hair, accessory, clothing silhouette, activity, and one or two natural props. Change these variables on every series image.
 3. Use the prompt recipe below. Generate one image per character. Inspect the result against the checklist and revise one specific failure at a time.
 
@@ -25,7 +29,7 @@ Create a new character, not a new visual system. Treat any supplied 3×3 referen
 ## Prompt recipe
 
 ```text
-Use the supplied reference sheet as the mandatory visual and composition reference. Create a tenth tile in the same series, not a grid or collage.
+Input image: `assets/screenprint-character-series-reference.png`, mandatory style and composition reference only. Create a tenth tile in the same series, not a grid or collage.
 
 Create exactly one new character: [DISTINCT CHARACTER]. They are [ACTION] at a desk, wearing [OUTFIT]. Do not reuse the identity, hair, face, outfit, pose, or prop layout of any reference character.
 
