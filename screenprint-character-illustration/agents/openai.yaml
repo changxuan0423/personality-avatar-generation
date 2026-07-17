@@ -1,0 +1,4 @@
+interface:
+  display_name: "丝网印刷人物插画"
+  short_description: "生成紧凑桌前丝网印刷人物插画，保持系列构图与角色差异"
+  default_prompt: "Use $screenprint-character-illustration to create a new single-character desk-work illustration."
