@@ -1,0 +1,4 @@
+interface:
+  display_name: "美式漫画半调风格头像"
+  short_description: "生成青年、低饱和、旧报刊半调风格的角色头像"
+  default_prompt: "使用 $american-comic-halftone-avatar 生成一张青年角色的美式漫画半调风格头像。"
