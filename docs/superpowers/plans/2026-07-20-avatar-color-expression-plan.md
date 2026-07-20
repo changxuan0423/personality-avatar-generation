@@ -55,10 +55,10 @@ Run the official skill validator, `git diff --check`, static requirement searche
 
 Install the validated source to `/Users/admin/.codex/skills/american-comic-halftone-avatar/`, rebuild `american-comic-halftone-avatar.tar.gz`, and compare source, installed copy, and extracted archive. Expected: no differences.
 
-- [ ] **Step 6: Commit and publish**
+- [x] **Step 6: Commit and publish**
 
 Stage only the skill, README, design, plan, and archive. Commit with `Update avatar batch colors and comic expression`. Push the current branch, verify a fast-forward to `main`, and confirm remote `main` equals local `HEAD`.
 
-- [ ] **Step 7: Run final `/neat` audit**
+- [x] **Step 7: Run final `/neat` audit**
 
 Re-run inventory and knowledge checks. Report every fact surface and retain all cleanup candidates until the user explicitly confirms cleanup after the report.
