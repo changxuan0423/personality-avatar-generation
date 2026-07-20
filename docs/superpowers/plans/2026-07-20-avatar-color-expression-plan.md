@@ -29,7 +29,7 @@
 - Consumes: the existing five-image reference contract and the approved design in `docs/superpowers/specs/2026-07-20-avatar-color-expression-design.md`.
 - Produces: a skill prompt with explicit batch palette allocation, visually distinct backgrounds, level-3 expression intensity, and two coordinated expression cues.
 
-- [ ] **Step 1: Verify the baseline fails**
+- [x] **Step 1: Verify the baseline fails**
 
 Run:
 
@@ -39,19 +39,19 @@ rg -n '同一批次.*(全部不同|不得重复)|第 3 档|最多.*两个.*(表�
 
 Expected: no matches; the current skill lacks the approved behavior.
 
-- [ ] **Step 2: Implement the positive recipes**
+- [x] **Step 2: Implement the positive recipes**
 
 Update the workflow, reference roles, expression section, color section, common-failure table, prompt template, and self-check. Use positive structural language: pre-allocate the batch palette and combine one primary plus one supporting expression cue.
 
-- [ ] **Step 3: Update the repository summary**
+- [x] **Step 3: Update the repository summary**
 
 Change the README description from “克制社论漫画表情” to wording that accurately states medium, visible editorial-comic expression.
 
-- [ ] **Step 4: Validate the updated source**
+- [x] **Step 4: Validate the updated source**
 
 Run the official skill validator, `git diff --check`, static requirement searches, and asset/reference-count checks. Expected: all checks pass and the fixed input list remains exactly five.
 
-- [ ] **Step 5: Sync distribution surfaces**
+- [x] **Step 5: Sync distribution surfaces**
 
 Install the validated source to `/Users/admin/.codex/skills/american-comic-halftone-avatar/`, rebuild `american-comic-halftone-avatar.tar.gz`, and compare source, installed copy, and extracted archive. Expected: no differences.
 

@@ -4,7 +4,7 @@
 
 | Skill | 适用方向 |
 | --- | --- |
-| `american-comic-halftone-avatar/` | 美式漫画半调风格头像：青年角色、克制社论漫画表情、低饱和旧报刊配色与选择性印刷细节。 |
+| `american-comic-halftone-avatar/` | 美式漫画半调风格头像：青年角色、中等强度社论漫画表情、同批次不重复的低饱和旧报刊背景与选择性印刷细节。 |
 | `screenprint-character-illustration/` | 丝网印刷人物插画：紧凑桌前构图、密集半调网点与可变角色系列。 |
 
 每个目录均可独立安装。安装完成后，重新开启 Codex 会话即可调用。
